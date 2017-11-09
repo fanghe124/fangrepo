@@ -35,9 +35,9 @@ DELAY = 10
 
   
 def SendEmailWithGmail(TEXT):
-    gmail_user = "stevehunter946@gmail.com"
-    gmail_pwd = "mrpgm124"
-    TO = 'mrpgm124@gmail.com'
+    gmail_user = "email1@gmail.com"
+    gmail_pwd = "password"
+    TO = 'to@gmail.com'
     SUBJECT = "Testing sending using gmail"
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
